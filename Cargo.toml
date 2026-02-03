@@ -1,0 +1,9 @@
+[package]
+name = "learning_rust_ml"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+linfa = "*"
+linfa-datasets = {version ="*", features = ["iris"]}
+rand = "*"

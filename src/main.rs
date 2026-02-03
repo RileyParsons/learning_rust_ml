@@ -1,4 +1,4 @@
-use rand::prelude::*;
+use linfa::prelude::Records;
 
 // links and references
 // https://docs.rs/linfa/latest/linfa/
@@ -23,7 +23,10 @@ fn main() {
 
     // print via formated string
     // {:?} and {:#?} are debug print
-    println!("Train: {:#?}",train);
-    println!("test: {:#?}",test);
+    // println!("Train: {:#?}",train);
+    // println!("test: {:#?}",test);
+
+    println!("{:?}", train.nsamples());
+    println!("{:?}", test.nsamples());
 
 }
